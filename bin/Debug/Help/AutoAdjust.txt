@@ -1,0 +1,17 @@
+CATEGORY=Tools\Auto Adjust Selection
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Auto Adjust Selection can make BMTune auto adjust
+the fuel maps automatically. If will read the AFR,
+if the conditions are met, the AFR are saved in the
+AFR Reading display, and BMTune caculated the fuel
+difference to add or remove at the specific location.
+
+Fuel Difference percentage can be seen in the tables
+menu, exactly in the the views tab named 'Fuel Difference'.
+
+Condition for AFR Reading can be set in the Settings,
+in the 'Overlay(Afr)' tab.
+!LABEL1

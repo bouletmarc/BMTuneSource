@@ -1,0 +1,38 @@
+CATEGORY=Parameters\Main Settings\Idle Control
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpIdle.png
+
+LABEL1=
+Idle RPM is controllable through BMTune  via the Idle Air Control valve located on
+the back of your intake manifold.
+
+The target idle is the RPM you want to idle at once the car has warmed up.
+
+The idle air control valve duty cycle adjustment can be used to control how much air
+is allowed to pass through to the intake manifold. Going negative will allow less air to
+pass through and going positive will allow more air to pass through.
+
+The ECU will try to correct and reach the target idle anyway, but if you go too far it
+won't be able to and your idle may bounce around or suffer.
+
+Disable IACV error allows those who no longer have the idle air control valve plugged
+in to continue on without a check engine light and resulting error code.
+
+Startup idle gives you the ability to adjust the target idle for engine coolant
+temperature during the warmup process.
+
+To help the vehicle warm up quickly and properly a higher target idle is specified.
+The top box is the engine coolant temperature in either celcius or fahrenheit depending
+on your preference setting and the bottom box is the target idle setting for that
+temperature.
+
+The ECU interpolates between the temperature setting below and above the current
+temperature and picks an RPM in between the target settings for both.
+
+It is best to set the target settings for normal operating temperature to match the target
+idle rpm above. Other factors also effect the startup process.
+
+See ECT Corrections page.
+!LABEL1

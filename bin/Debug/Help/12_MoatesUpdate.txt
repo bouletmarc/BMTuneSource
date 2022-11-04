@@ -1,0 +1,25 @@
+CATEGORY=Update Moates Firmware
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpfirmwareupdater.jpg
+
+LABEL1=
+The Firmware Update must be done on Windows.
+Since the hardware is a Moates product, it required the 'Moates Firmware Updater'
+utility be used to update the firmware.
+
+First download the firmware updater on www.moates.net
+
+To update the Demon firmware first plug in the Demon. Quit all other applications 
+to ensure the firmware is delivered without any complications. Launch the Moates
+Firmware Updater application. If it says Not Detected, make sure the unit is plugged
+in and hit detect again.You should see your units firmware version listed in the
+current firmware version section. If it says 1.09.D then you are already up to date. 
+If it says 1.08.D you will need to update. Choose browse and select the provided file
+in the same folder. It should say 1.09.D in the Updated Version section of the image details.
+Hit Update. The progress bar will run and you will get a message that your Demon
+Firmware update was successful.
+
+Enjoy the update! 
+!LABEL1

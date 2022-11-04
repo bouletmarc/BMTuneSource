@@ -1,0 +1,13 @@
+CATEGORY=Parameters\Extras\Lean Protection
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpLean.png
+
+LABEL1=
+Set the Minimum RPM and TPS condition to start
+checking for lean air fuel ratio.
+
+Enable/Disable Two Lean Protection Settings that will
+trigger Lean Protection for X amount of milliseconds.
+!LABEL1

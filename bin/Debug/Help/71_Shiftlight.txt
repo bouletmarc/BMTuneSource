@@ -1,0 +1,12 @@
+CATEGORY=Parameters\Extras\Shift Light
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpShiftLight.png
+
+LABEL1=
+MIL shiftlight allows you to use the malfunction indicator 
+light (aka check engine light) as a shiftlight at the specified RPM.
+
+You can optionally enable different shiftlights per gear.
+!LABEL1

@@ -1,0 +1,11 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Idle Ignition Corrections
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpIdleCorr.png
+
+LABEL1=
+Idle Ignition Correction is applied based on the difference between your set idle
+RPM and the RPM you're currently idling at. It will add ignition if you're below
+your target and pull ignition if you're above your target.
+!LABEL1

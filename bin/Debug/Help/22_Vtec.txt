@@ -1,0 +1,26 @@
+CATEGORY=Parameters\Main Settings\VTEC Settings
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpVTec.png
+
+LABEL1=
+VTEC Settings are conditions and settings for which VTEC will be engaged and disengaged.
+High and Low load engage are the RPMs to engage based on whether you're below or above
+the High/Low load setting.
+
+Disengage Delay is how many RPM below the engage RPM to disengage VTEC. With VTEC
+set to engage at 5500RPM a Disengage Delay of 500 would disengage VTEC at 5000RPM.
+
+Minimum Load, Speed, and Engine Coolant Temperature settings are the thresholds in which
+to allow VTEC to engage.
+
+Disable Below Load Threshold will disable VTEC any time the load gets below the threshold in
+the load setting and kick back in once all conditions are met again.
+
+VTEC Options can be used to disable VTEC for non-VTEC setups or disable a few of the checks
+that prevent VTEC from engaging. Disable VTEC Error Check will allow VTEC to engage even with
+a check engine light that would normally prevent VTEC operation. 
+
+You can also use an alternative VTEC output if your ecu aren't designed to be VTEC.
+!LABEL1

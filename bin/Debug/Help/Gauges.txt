@@ -1,0 +1,31 @@
+CATEGORY=Displays/Graph\Gauges Display
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+When you first open your Gauge Window by selecting Show Gauges
+from the Datalogger menu you'll see a simple setup like this:
+!LABEL1
+
+
+IMG1=helpGauges1.png
+
+LABEL2=
+You'll see lightsand gauges data windows.
+To add extra lights or gauges, simply right click anywhere in the menu.
+
+When you have your extra light and/or gauge, we can select what they
+should show by right clicking on the light or gauge itself. In the menu that
+pops up is a submenu titled "Set Type" which is where we'll choose the
+options we want to display for each light or gauge.
+
+For the gauges themselves there are extra options on certain items. You
+can see the peaks values of the logging, display the back color by warnings
+settings and much mores.
+
+You can optionally resize the window to switch the view from horizontal to vertical.
+
+Here's what an example gauge setup looks like:
+!LABEL2
+
+IMG2=helpGauges2.png

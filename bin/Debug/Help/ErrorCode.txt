@@ -1,0 +1,16 @@
+CATEGORY=Tools\Errors Code
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpErrorCode.png
+
+LABEL1=
+When you have an error code:
+MIL led will turn on and the MIL in the datalogging data window will
+turn ON(RED), double clicking it will open the error code window
+
+You can use this menu to know your MIL error codes and also clear them
+if it's possible for clearing.
+
+You must be datalogging in order to outputs the errors code.
+!LABEL1

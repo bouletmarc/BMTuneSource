@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\IAT Corrections
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpIATCorr.png
+
+LABEL1=
+Intake air temperature settings allow you to adjust fuel and ignition based on the
+intake air temperature at different loads.
+
+On Low, Medium, and High load fuel trim settings the top box represents the
+intake air temperature and the bottom box represents the amount of fuel
+correction in plus or minus percentage.
+
+Ignition correction allows you to add or pull ignition timing based on the intake
+air temperature in the top box. There are two IAT ignition adjustments.
+One is applied at all times and the other is for high load only.
+!LABEL1

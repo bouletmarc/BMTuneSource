@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Ignition Dwell
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpDwell.png
+
+LABEL1=
+Ignition Dwell settings are for advanced users only. Please do not play with these settings
+if you don't understand what they're for.
+
+The RPM Based Ignition Adjustments are adjustments applied to the ignition value based on RPM.
+
+RPM Based Dwell Control allows you to adjust the charge time of the coil by altering the
+cam angle at which the charge starts.
+
+Battery Voltage Based Dwell Multiplier is the value based on battery voltage that is multiplied by
+the cam angle from the RPM Based Dwell Control to product the final dwell values.
+!LABEL1

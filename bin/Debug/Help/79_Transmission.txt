@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Extras\Transmission
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpTransmission.png
+
+LABEL1=
+This menu will let you choose your current transmission to put
+in the baserom. This can be used to know which gear the car are
+running on.
+
+You can put a custom transmisson ratio if your transmission are
+not listed and customized. The value are raw values but they tend
+to be pretty similar that 'km/h' values.
+
+Gear Learn Tool can help you to set a custom transmission that you
+don't know what raw value to use.
+!LABEL1

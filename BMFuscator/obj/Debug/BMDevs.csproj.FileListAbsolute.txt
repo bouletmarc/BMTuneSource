@@ -1,0 +1,18 @@
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\dnlib.dll
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\BMDevs.csprojAssemblyReference.cache
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\BMDevs.csproj.CoreCompileInputs.cache
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\BMDevs.csproj.CopyComplete
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\BMFuscator.exe.config
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\BMFuscator.exe
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\BMFuscator.pdb
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\BMFuscator.exe
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\BMFuscator.pdb
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\bin\Debug\BMFuscator.exe.config
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\bin\Debug\BMFuscator.exe
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\bin\Debug\BMFuscator.pdb
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\bin\Debug\dnlib.dll
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\obj\Debug\BMDevs.csprojAssemblyReference.cache
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\obj\Debug\BMDevs.csproj.CopyComplete
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\obj\Debug\BMFuscator.exe
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\obj\Debug\BMFuscator.pdb
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Encrypter\bin\Debug\FilesInfos.txt

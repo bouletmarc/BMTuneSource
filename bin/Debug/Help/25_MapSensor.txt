@@ -1,0 +1,23 @@
+CATEGORY=Parameters\Main Settings\Map Sensor
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpMapSensor.png
+
+LABEL1=
+Map sensor settings allows you to choose from the many preset map sensors
+or enter values for a custom sensor.
+
+Changing the map sensor will automatically rescale your maps for the new sensor
+and try to keep the load settings as close as possible to what they were with the
+previously selected sensor. If you select a sensor that does not read as high as the
+previous sensor it will set any values above the new sensors range to the highest
+pressure it is capable of, essentially the maximum setting the sensor can see.
+
+For custom sensors, make sure you have your settings in there before you choose
+custom and then you can adjust from there.
+
+You can set the map sensor settings by either two way:
+-The Minimum and Maximum voltage (0v-5v)
+-The mBar/Volt scale
+!LABEL1

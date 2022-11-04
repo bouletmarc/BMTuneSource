@@ -1,0 +1,10 @@
+CATEGORY=Parameters\Extras\ECT Protection
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpECTProtection.png
+
+LABEL1=
+When ECT Protection is enabled the ECU set a lower
+rev limit if your ECT climbs above the value you have set.
+!LABEL1

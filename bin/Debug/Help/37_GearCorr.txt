@@ -1,0 +1,15 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Gear Corrections
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpGearCorr.png
+
+LABEL1=
+Gear correction allows you to adjust fuel and ignition per gear.
+
+Fuel settings are more or less fuel trims.
+
+Ignition settings are more or less degrees of ignition timing.
+
+Only Active Above allows you to set a minimum load that gear based trims will be applied.
+!LABEL1

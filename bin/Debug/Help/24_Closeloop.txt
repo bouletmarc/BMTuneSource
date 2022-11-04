@@ -1,0 +1,45 @@
+CATEGORY=Parameters\Main Settings\Close Loop
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpCloseloop.png
+
+LABEL1=
+Closed loop settings allows you full control of close loop.
+
+When using a wideband 0-5v for closed loop please be aware you may need
+to lower the minimum and maximum allowable adjustment to avoid it pulling
+or adding in too much fuel.
+
+To disable closed loop all the time simply uncheck the checkbox
+labeled Closed Loop Enabled.
+
+Enabling wideband will Invert Closed Loop Operation the way closed loop operates.
+In stock form it is looking for a higher voltage to designate a rich condition and
+a lower voltage to designate a lean condition. This is backwards from how most
+widebands operate.
+
+O2 Input allows you to choose which of the available inputs you have
+your wideband hooked up to.
+
+Disable Closed Loop Above Load will allow you to specify the maximum load that
+closed loop will remain enabled. Good for supercharged setups that can build
+boost without much throttle.
+
+Disable Closed Loop Above RPM, Below ECT, and Below IAT allow for a little more
+depth on the conditions for which closed loop can be active.
+
+Target oxygen sensor voltage allows you to specify the target that closed loop will
+shoot for in it's fuel trims. This is good if you have a wideband with narrowband
+output and would like to specify a target voltage that's different than that of stock.
+
+Disable by throtte position. This is how closed loop is disabled in stock form.
+Per the RPM in the top box closed loop is disabled at the Disable TPS throttle
+position and re-enabled at the Enable TPS position.
+
+Use open loop VE tables above engine coolant temperature uses the VE table map
+to add enrichments when in open loop. Unchecking the checkbox will run off of
+the fuel maps only and not add the enrichment value from the open loop VE map.
+If it is enabled, it will only kick in above the engine coolant temperature specified
+to allow you more control over startup enrichments before closed loop kicks in.
+!LABEL1

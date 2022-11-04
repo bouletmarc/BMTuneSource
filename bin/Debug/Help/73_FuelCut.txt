@@ -1,0 +1,19 @@
+CATEGORY=Parameters\Extras\Fuel Cut
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpFuelCut.png
+
+LABEL1=
+Fuel Cut settings are conditions in which the engine will cut fuel on deceleration.
+
+The Load setting is a basis. Depending on RPM it may cut slightly higher or lower
+than the specified load.
+
+Below Throttle Position. The vehicle must be below this throttle position to cut fuel.
+
+Minimum RPM. The vehicle must be above this RPM to cut fuel.
+
+Fuel cut delay is the amount of time before the fuel cut becomes active and
+zeros out the fuel.
+!LABEL1

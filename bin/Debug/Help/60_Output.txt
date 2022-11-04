@@ -1,0 +1,35 @@
+CATEGORY=Parameters\Ouputs
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpOutput1.png
+
+IMG2=helpOutput2.png
+
+LABEL1=
+When the Enable Output checkbox is checked the chosen output will be
+activated based on the conditions set below.
+
+Activation Input is the input to be used with a switch or when set to none
+will activate based solely on the conditions set below. Invert Input is used
+when you have a switched that is grounded when off.
+
+Output is the output you want activated when all conditions are met. 
+Invert Output can be used to have the output be on when conditions are not
+met and off when conditions are met. You can also choose to Switch Maps
+On Output which will immediately run off of the secondary maps when all 
+conditions are met giving you the ability to fully tune for Nitrous for instance
+on completely separate maps.
+
+Disable Output If MIL Code is present can be a safety option to not allow
+the output to activate when there's an error code present.
+
+Disable On FTL/FTS Activation can be used as a safety net to disable the
+output during 3-step usage.
+
+Except for TPS, all conditions have a minimum and a maximum setting to widen
+the array of uses. The TPS threshold is minimum only.
+
+While the output is active you can add or subtract fuel and ignition timing per
+rpm point. RPM points can be adjusted separately for fuel and ignition trims.
+!LABEL1

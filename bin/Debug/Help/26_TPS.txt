@@ -1,0 +1,21 @@
+CATEGORY=Parameters\Main Settings\TPS Sensor
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpTPS.png
+
+LABEL1=
+You can set a custom TPS voltage reading if you want or simply
+syncronize your current TPS sensor perfectly with the baserom.
+
+If you want to sync your TPS sensor, you will need to have the ecu
+connected to the software (datalogging).
+
+You must have the engine stopped but the Ignition Key turned ON.
+
+Follow the specified step to set your TPS voltage.
+1. set your TPS at 0% (no throttle), then clic next
+2. set your TPS at 100% (full throttle), then clic next again.
+
+Your TPS voltage will be set in the baserom.
+!LABEL1

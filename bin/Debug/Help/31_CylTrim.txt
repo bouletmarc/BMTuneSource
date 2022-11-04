@@ -1,0 +1,14 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Individual Cylinder Trim
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpCylTrim.png
+
+LABEL1=
+Individual cylinder trim settings allow you to adjust more or less
+fuel/Ignition on per cylinder basis.
+
+This can be used to even out the burn on cylinders that run hotter than others.
+This also gives you complete control to match exhaust gas temperatures on
+all 4 cylinders if you have the right equipment to watch the temperatures.
+!LABEL1

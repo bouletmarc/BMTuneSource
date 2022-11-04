@@ -1,0 +1,12 @@
+CATEGORY=Displays/Graph\Datalog Display
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpData.png
+
+LABEL1=
+All datalog sensors values are displayed on this
+exact display. If you need to know exactly the
+value of a sensor at the right moment, this is
+where you will spend your time to look at.
+!LABEL1

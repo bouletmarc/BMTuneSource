@@ -1,0 +1,31 @@
+CATEGORY=Settings\Wideband
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpWideband.png
+
+LABEL1=
+You can set a wideband to be read by the ecu or only used for datalogging.
+
+First select your desired ecu input if you want the ecu to read the wideband or
+choose a serial input if you want the software to read directly from the wideband.
+
+Select your wideband brand, if its not listed you can set the voltage table manually.
+Set your offset correction if the software read a different value from
+what the wideband read.
+
+Select your fuel type.
+
+If you are using the ecu input, don't forget to activate the wideband option in
+the closeloop settings and make sure the ecu are in closeloop.
+
+You can use your wideband on D14 (original O2 Input) but the ecu will only
+read 0-3.73V and not the full 0-5V analog voltage.
+
+Using D10-ELD Input:
+To use the full 0-5v band on the D10-ELD Input you should look at the resistors
+R136, R137, and R138 and follow:
+-R136, you need to remove this resistor
+-R137, you need to make sure the resistor are in place and intact
+-R138, you need to remove this resistor
+!LABEL1

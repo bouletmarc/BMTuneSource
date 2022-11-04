@@ -1,0 +1,22 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\ECT Corrections
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpECTCorr.png
+
+LABEL1=
+ECT corrections are fuel and ignition adjustments based on engine coolant temperature.
+
+ECT fuel corrections allow you to add or take away fuel based on
+the engine coolant temperature.
+
+The top box is the temperature point and the bottom box is the fuel adjustment to be
+made in percentage. A negative value will take out fuel and a positive will add it in.
+It also aids in cold startup and warming up the engine.
+
+ECT ignition correction also aids in cold startup by adding ignition timing and starting
+the ingition process earlier. This table will allow you to enter negative values to pull
+timing at higher temperatures for safety.
+
+Note: An extra temperature point is added in if you wish to adjust the scale to your liking.
+!LABEL1

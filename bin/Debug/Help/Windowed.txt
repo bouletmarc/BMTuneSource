@@ -1,0 +1,12 @@
+CATEGORY=Tools\Windowed Mode
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Windowed Mode can turn most of the BMTune 'pages' into
+windows. Windows can be resized and draggeg as long as the
+Docked mode too can but it's less customizable.
+
+Windowed and Docked Mode and there too choose wich interface
+you prefer the most.
+!LABEL1

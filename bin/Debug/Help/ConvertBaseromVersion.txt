@@ -1,0 +1,18 @@
+CATEGORY=Tools\Baserom Converter
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpConvertBaseromVersion.png
+
+LABEL1=
+Baserom Converter will converter the baserom file
+version of your tune file.
+
+Upgrading or Downgrading the version will add or remove
+baserom features, bugs and fixed.
+
+When converting your baserom version it's suggested, if you
+are connected to realtime emulation, to make sure the engine
+is stopped and the car Key is turned Off to not create any
+CEL light.
+!LABEL1

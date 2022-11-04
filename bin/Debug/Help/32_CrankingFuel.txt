@@ -1,0 +1,23 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Cranking Fuel
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpCranking.png
+
+LABEL1=
+This allows you to alter the raw cranking fuel values per engine coolant temp that
+are sent to the injectors while starting.
+
+These are affected by the cranking calibration setting under injector calibration as well.
+Using a value in of -50 will effective use only half of the values listed in the table above.
+
+The top box is engine coolant temperate and the bottom box is raw fuel value 
+your are adding/subbing to the injectors.
+
+The Cranking trim it finnaly compensated for RPM and Manifold Air Pressure. 
+This injector duration is then further compensated for:
+-injector size
+-overall fuel trim
+-final cranking fuel trim.
+
+!LABEL1

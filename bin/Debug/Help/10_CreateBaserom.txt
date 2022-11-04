@@ -1,0 +1,78 @@
+CATEGORY=Create New Basemap
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpCreate1.png
+
+LABEL1=
+On the very first page (if you have bmtune registered) you will be prompt
+to choose a calibration file that has already been tuned from the internet
+or from the BMTune internal library.
+
+If you don't want to open an already tuned calibration, select Create New Basemap
+!LABEL1
+
+IMG2=helpCreate2.png
+
+LABEL2=
+On the second page you will be prompt to choose your basemap version.
+
+The basemap version refer to the version of the file your ecu are running on.
+Updated basemap version can include more fixes and more basemap features.
+!LABEL2
+
+IMG3=helpCreate3.png
+
+LABEL3=
+On the thrid page, if you have choosen to create a new basemap,
+you will be prompt to choose your engine settings shown bellow.
+
+Mapsensor:
+-Select a predefined mapsenor or fill in the min and max mbar
+
+Injector Setup:
+-Select the injector size
+-Select the correct battery offset table
+-Set the fuel trims
+
+Boost Setup:
+-Select the amount of columns you want(max 14). Your map scalars will be setup
+-You can enable a boostcut during creation
+-Boost fuel sets how much additional fuel to add to the boost portion of the basemap.
+-->The more efficent the turbo is, the higher you want to set this number.
+-->A good starting point is usually 120-130% 
+-Set the igntion retard a specified amount timing per PSI
+
+Transmission:
+-Select the transmission your are running, if you are running a custom transmission
+ you can later set the transmission manually in the parameters.
+ 
+Sensors Options:
+You can select you ecu type to know which options are enabled and/or available to you
+by default. By default every optionsa are disabled.
+
+-Knock
+-ELD
+-PA(Baro)
+-Injector Test
+-O2 Heater
+-IAB
+!LABEL3
+
+IMG4=helpCreate4.png
+
+LABEL4=
+Select which fuel and ignition map you will start with.
+
+Regoin: JDM/EDM/USDM/CDN
+Engine: which engine the stock map was designed
+
+This will set:
+-Fuel and Ignition Maps
+-VTEC enable/disable
+-VTEC points
+-Rev limit points(cold/hot)
+
+Note:
+These are basemap. Tuning is always required.
+!LABEL4

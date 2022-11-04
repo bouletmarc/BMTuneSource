@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Boost Settings\Boost Cut
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpBoostCut.png
+
+LABEL1=
+Boost cut allows you to stop the engine's combustion process if it sees above
+a load you feel is safe. The ECU will stop combustion until the RPM has
+dropped and then your power will be restored.
+
+Enabling boost cut with the checkbox will immediately turn on its capabilities
+so make sure your load settings are not below what you're idling at or it will start to cut.
+
+Below the hot/cold temperature threshold the ECU will use the load value
+next to cold cut. Above the hot/cold temperature threshold it will use the load
+values labeled "Hot" based on the low/high boost input.
+!LABEL1

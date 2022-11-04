@@ -1,0 +1,10 @@
+CATEGORY=Parameters\3-Step Settings\Burnout Control
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpBurnout.png
+
+LABEL1=
+Burnout Control allow you to set a max RPM limit for your
+burnout using a choosen input (generally a switch is wired to this input)
+!LABEL1

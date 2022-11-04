@@ -1,0 +1,26 @@
+CATEGORY=Parameters\Main Settings\Rev Limits
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpRevLimiter.png
+
+LABEL1=
+Rev limits are used to control an engine's RPM by cutting fuel or ignition to
+prevent the combustion of the air/fuel mixture. This being the case, a rev limit
+cannot prevent mechanically enduced over revving such as downshifting
+into 2nd gear instead of going into 4th.
+
+The low cam rev limit is for non-vtec setups or also used as a cold limit
+while the engine warms up before VTEC will engage.
+
+The high cam rev limit is used while in VTEC only or on the
+High Cam Maps activation.
+
+The limit is the RPM the cut happens and the restart is the
+RPM it goes back to normal.
+
+You can choose to cut fuel, ignition, or both. This setting is used for rev limits
+and 3-step. As the warning states, disabling both options will leave you with
+no ECU controlled rev limit. This can be utilized if you have an external box,
+such as an MSD unit, that controls your rev limit.
+!LABEL1

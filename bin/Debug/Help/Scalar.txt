@@ -1,0 +1,28 @@
+CATEGORY=Tools\Scalar Setup
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpScalar.png
+
+LABEL1=
+The scalar tool allow you to redo your basemap
+tables scalar quickly by severals modes.
+
+MODES:
+-RPM
+-MAP (Only is Map indexing enabled)
+-TPS (Only is TPS indexing enabled)
+-Alpha-N (Only is Alpha-N indexing enabled)
+-NA
+-Boost
+
+INCREMENT:
+When calculating by increment, you generally set a
+starting value and an increment value that is added
+at each steps (columns or rows).
+
+DECREMENT:
+When calculating by decrement, you generally set a
+starting value and a ending value. All steps between
+the start and the end value will be caculated automatically.
+!LABEL1

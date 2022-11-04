@@ -1,0 +1,14 @@
+CATEGORY=Tools\Follow Secondary
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Follow Secondary will follow and switch tables automatically
+using the datalog. This mean if you are doing a live tuning
+sesion, and your ecu pass the conditions to switch maps, by
+exemple you change to the secondary table, then follow secondary
+will switch the shown table in BMTune automaticaly between
+the primary and secondary table.
+
+It will follow the datalog cursor for primary and secondary tables.
+!LABEL1

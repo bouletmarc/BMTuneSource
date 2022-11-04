@@ -1,0 +1,38 @@
+CATEGORY=Parameters\Extras\Extras
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpExtras.png
+
+LABEL1=
+SERVICE CHECK CONNECTOR
+The SCC Input allows you to choose what input to use to set the ECU
+into service mode to check codes or set timing. This can also be set to none to allow
+the service connector to be used as an input for a switch based option elsewhere
+in the software. When set to none, you can check your codes by having the car off,
+key on, and the gas pedal to the floor. While checking codes, either regularly or via
+the gas pedal, you can hold the brake pedal down to clear your current codes.
+
+FUEL PUMP CONTROL
+Fuel pump settings allows you to determine when the fuel pump is active.
+Under the normal setting it will act as stock. You can also set it to be always
+on or always off (For security or testing purposes). You also have the ability
+to adjust the prime duration when the key is first turned to on.
+
+IGNITION LOCK
+Lock Ignition allows you to lock ignition timing at the specified value for setting base
+timing and other applications.
+
+PROTECT MAPS
+Protect Maps can be used to protect your binary save file (.bin) from being opened in
+BMTune and used by others tuners. You cannot open your binary save once it's protected,
+so make sure you have your backup without this protection. Protected save can be burned
+with external burning softwares (ex: moates flash and burn) or simply burned with the
+internal chip burning function. If you use the internal function, you will be warned that
+the binary gona be protected before burning.
+
+MIL FLASHES
+If you put a number higher than 0 the MIL will flash 'X' time when turning the car key On.
+This can be used to recognize who tuned the car in your region if you are the only one using
+this features nearby with the same amount of flash.
+!LABEL1

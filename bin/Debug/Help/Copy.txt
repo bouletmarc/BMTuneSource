@@ -1,0 +1,12 @@
+CATEGORY=Tools\Copy Primary/Secondary
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpCopy.png
+
+LABEL1=
+This tool allow you to copy fuel and ignitions maps
+between your primary or secondary tables.
+
+You can also copy the RPM or Map scalar.
+!LABEL1

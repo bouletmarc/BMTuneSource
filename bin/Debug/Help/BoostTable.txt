@@ -1,0 +1,25 @@
+CATEGORY=Tools\Boost Table
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpBoosTable.png
+
+LABEL1=
+BOOST FUEL:
+This sets how much additional fuel to add to the boost
+portion of the basemap. The more efficent the turbo is, the higher you want
+to set this number. A good starting point is usually 120-130% 
+
+BOOST IGNITION RETARD:
+This will retard a specified amount timing
+per PSI(starting at the first boost column). A good starting point
+is usually 0.75-1 degree of retard per PSI.
+
+You can also use the Step Retard to retard from a specific amount by steps
+of PSI.
+
+BOOST COLUMNS:
+You can set the amount of boost columns you want in you basemap.
+More columns you have, more 'fluid/precise' the tables gonna be, it will do
+steps less abrutly. A good starting point is usually 10-14 columns.
+!LABEL1

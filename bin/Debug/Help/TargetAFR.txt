@@ -1,0 +1,27 @@
+CATEGORY=Settings\Target AFR
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpTargetAFR1.png
+
+LABEL1=
+You can quickly set your targets AFR maps in the settings.
+
+Set your Low/Medium/High load desired targets and then
+apply it to your maps (primary and/or secondary)
+
+You can also use the auto adjust feature if you want
+the software to adjust automatically your fuel maps
+in compensation of the wideband AFR reading.
+!LABEL1
+
+IMG2=helpTargetAFR2.png
+
+LABEL2=
+To set your AFR reading condition, you must go in the Settings
+'Overlay(AFR)' menu.
+
+You can see your AFR reading in the tables menu. Select 'AFR Reding'
+in the 'Views' tabs. You can also see your fuel percentage differences
+for each validated area in the 'Fuel Difference' views tabs.
+!LABEL2

@@ -1,0 +1,48 @@
+CATEGORY=Burning Chip
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpBurnChip.png
+
+LABEL1=
+This feature will read/write/verify chip with Moates Burn1/Burn2 and BMBurner
+
+1. Select your chip model first before doing any action
+2. Select your region area (if its a 64kb chip, if it's a 32kb you can't select
+   the region area)
+  
+I recommanded to use the area 8000-FFFF for SST chips (see explaination bellow)
+
+Region Area Explaination:
+the region area the the region you want to burn your file on the chip. Since our
+tune file are only 32kb and SST chip are 64kb, we don't use all the space available.
+
+The region are in 'Hexadecimal' and represent the location where the First (or the last)
+byte are writen on the chip.
+
+A file of 32kb (32kilo-bytes) is precisely 32768 bytes, if you convert 32768 into
+Hexadecimal we obtain 0x8000. We have 0x8000 bytes to write on the chip.
+
+SST Chip are 64kb (64kilo-bytes), which is precisly 65535 bytes, if you convert
+65535 into Hexadecimal we obtain 0xFFFF. We have 0xFFFF bytes of space on the chip.
+
+By default, the pin A15 on the SST chip are set to 5V which allow us to only read the
+second half partition of the SST chip (from byte 32768 to 65535). If you now convert
+the location into Hexadecimal we obtain 0x8000 to 0xFFFF.
+
+2Timer:
+The '2Timer' will switch between two full tune file on the same 64kb chip.
+
+Since SST chips are 64kb and our baserom file are only 32kb, with a 2Timer
+you can switch between 2x files on the same chip by asserting 5V or grounding the
+pin A15 on the SST chip.
+
+The area 0000-7FFF can now be used when the 2Timer get active on a 64kb chip,
+and the area 8000-FFFF are used when the 2Timer are not active (default).
+
+If you have a 2Timer, you can select to burn the full chip region (0000 to FFFF) and
+you will be prompt to choose your second file to use when the 2Timer get active.
+
+Invert location for 2Timer will invert the location of the first and second file.
+This mean the second file are now used when the 2Timer are not active by default.
+!LABEL1

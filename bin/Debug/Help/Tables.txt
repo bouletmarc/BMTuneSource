@@ -1,0 +1,49 @@
+CATEGORY=Displays/Graph\Tables
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpTable.png
+
+LABEL1=
+TABLES SELECTION:
+-PRIMARY (primary maps are used by default)
+-SECONDARY (secondary maps can be activated with
+ conditions or input in the parameters, by default
+ secondary maps aren't used)
+
+-LOW (Low cams are your Non-Vtec tables)
+-HIGH (High cams are your tables when Vtec is active)
+
+-FUEL (are your specific fueling tables)
+-IGNITION (are your specific ignition tables)
+
+UNITS:
+You can set the units you prefer to be displayed by
+exemple for the maps columns in the Settings.
+
+INTERPOLATE:
+Interpolate can smooth your rows and/or columns
+selected to make a more smoother maps.
+
+SMOOTH MAP:
+You can select this to smooth pikes area in your
+maps or your selection.
+
+SELECTION ADJUSTEMENTS:
+You can adjust/set your selection values easily by
+3 simply ways.
+-Percentage (add or remove a % of your selection)
+-Add Value (add or remove this value to your selection)
+-Direct Value (set your selection at this value)
+
+VIEWS:
+-MAP (Open your Fuel and Ignition tables)
+-A/F Target
+-A/F Reading
+-Fuel Difference (Fuel difference from reading and map)
+-VE Table
+
+-Fuel Raw Value (direct amount of fuel inserted)
+-Fuel Duty Cycle (show duty cycle of injectors)
+-Injector Duration (show the duration of injectors)
+!LABEL1

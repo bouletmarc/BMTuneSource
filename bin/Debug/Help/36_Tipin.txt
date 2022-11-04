@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Tip-in Corrections
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpTipin.png
+
+LABEL1=
+The top section hosts all of the conditions necessary to activate TPS Tip-In Correction.
+TPS Required Change is the TPS Raw representation of how many steps the
+TPS needs to change before the condition is met.
+
+The Based Retard Per RPM is the base amount of retard applied when TPS Tip-In
+Correction is active. This value is then multiplied by the TPS Correction Multiplier
+and the Gear Correction Multiplier to get the final retard amount.
+
+The Duration Per Gear allows you to adjust the amount of time in ms that
+the correction is applied.
+!LABEL1

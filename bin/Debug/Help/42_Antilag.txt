@@ -1,0 +1,27 @@
+CATEGORY=Parameters\3-Step Settings\Antilag
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpAntilag.png
+
+LABEL1=
+Anti-lag helps you build boost(spool turbo) at the start line when 2-Step is active. 
+You can pre-stage on 2-step and the tps threshold decides when anti-lag starts.
+Anti-lag start pulling timing and throw extra fuel above tps threshold(only when 2step active)
+
+Insert the amount of fuel to dump during anti-lag(Fuel value between 0 -255)
+
+WITHOUT STATIC IGNITION:
+Insert the amount of retard during anti-lag(postive value)
+The anti-lag value will be substracted from the final ignition.
+Otherwise it will be substracted from the ignition table lookup.
+By exemple : if you put a value of 45, and your final ignition are 42,
+                       the antilage final ignition will be -3;
+
+WITH STATIC IGNITION:
+You can also use the static option. Rather than substracting the retard number, it will
+set the ignition at the number definied.
+By exemple : if you put a value of -6, the antilag final ignition will be -6.
+
+Note: Anti-lag disengage as soon as the wheels spin
+!LABEL1

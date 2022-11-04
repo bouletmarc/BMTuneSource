@@ -1,0 +1,12 @@
+CATEGORY=Displays/Graph\Sensors Warnings
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpWarnings.png
+
+LABEL1=
+You can set manually your warnings parameters (used for graph colors).
+
+This options can be found in the 'settings menu' or simply by doing a right
+clic on a Graph display
+!LABEL1

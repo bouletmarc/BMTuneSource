@@ -1,0 +1,16 @@
+CATEGORY=Parameters\Extras\IAB Activation
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpIAB.png
+
+LABEL1=
+IAB Output will turn off the activation changes of the output.
+
+Engage is the RPM the IABs will open.
+
+Disengage is the RPM the IABs will close.
+
+USDM ECU is used to tell the ECU which output to use.
+It is different on JDM/USDM ECUs.
+!LABEL1

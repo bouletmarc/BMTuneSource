@@ -1,0 +1,31 @@
+CATEGORY=Settings\Connect Emulator
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpemuConnect.png
+
+LABEL1=
+Emulator Types :
+-Moates Ostrich 1 and 2
+-Moates Demon 1 and 2
+-Romulator
+-PGMFI EasyRTP
+
+Choose your emulator type to use for the realtime. You can set manually a
+COM Port or simply use the 'Auto-Scan' feature.
+
+If you want to set it manually, the recommanded baud for moates devices
+are 921600 for emulator and 38400 for the datalogger.
+
+Sampling rate:
+Lower your sampling rate is, faster your datalog gonna be. Too fast on
+slow computer can create lags.
+
+Note:
+-You can't change the datalogging port/settings with the demon because
+ it's the same usb port than the realtime emulating.
+-If you manage to connect to your emulator but cannot upload any file
+ you might want to increase the timeout time.
+-If you have issue connecting to your emulator or datalogger, please refer
+ to the Debug menu.
+!LABEL1

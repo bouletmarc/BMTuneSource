@@ -1,0 +1,42 @@
+CATEGORY=Parameters\3-Step Settings\Launch Control
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpLaunch.png
+
+LABEL1=
+Type:
+-TPS Based
+-VSS Based
+
+General:
+Select which input(switch) you want to you use as activation
+You can choose "always off" to disable FTL or "always On" to enable it full time
+This can be a clutch swith or a on/off toggle switch.
+
+TPS Based:
+The driver can adjust the launch rpm on the fly. Just rev to that rpm point
+and cross the tps engage threshold after that you can give less tps but the lock will stay.
+If you drop below the disengage threshold the lock is removed.
+
+Enter the mimimum rpm for 2-Step cut to work. Putting this to low(when always enabled) 
+can cause ftl locks in city traffic. High tps and low minimum rpm will cause FTL to engage.
+2-Step will be active below the disired vss.
+
+TPS engage: If you cross the tps threshold the rpm will be lock
+TPS disengage:If you come below this tps threshold the rpm lock will be released
+
+VSS Based:
+Specified rpm where the 2-Step will cut
+2-Step will be active below the disired vss.
+To use clutch based just select in activation input that is connected to the clutch.
+
+HOW TO MAKE FLAMES:
+First make sure igntion cut is enabled in the Rev Limits parameters.
+
+To create flames/pops on a n/a engines you dont need the antilag to be activated,
+antilag serve only for bossted setup to produce boost and also louder pops at the
+same time. Add some cut delay to cut the launch for a slight longer time, allowing
+you cylinder to get enought fuel (ignition cut not fuel cut) and when the engine
+turn On again (ignition turning on) it should light all the unburnt fuel.
+!LABEL1

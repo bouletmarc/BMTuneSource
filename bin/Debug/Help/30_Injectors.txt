@@ -1,0 +1,58 @@
+CATEGORY=Parameters\Fuel/Ignition Corrections\Injector Calibration
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpInjector.png
+
+LABEL1=
+Injector calibration settings allows you to easily scale for new injectors.
+
+Stock injector size is the size of injector you had stock.
+
+New injector size should be entered as your new injector size and
+not changed if it runs lean or rich.
+
+When you change the injector sizing BMtune will ask you if it can set
+the TPS Tip-In Trim and Cranking Trim with base values for the
+injector sizes you've entered.
+
+Overall fuel trim can be used to add or subtract fuel on top of what the
+stock/new injector sizes trim the fuel to. Bigger injectors can take longer
+to open causing it to run a little lean even though you have the correct
+stock and new size injector values entered. You can add or subtract a
+percentage in the overall trim to get it back to where you want it.
+
+The amount needed will vary for different cars as well as different brand injectors and sizes.
+
+TPS tip-in trim is used to adjust the amount of fuel added in on quick throttle changes.
+For bigger injector sizes you will want to enter a negative percentage to take out fuel otherwise
+too much will be thrown in causing your vehicle to bog. This value will vary based on your
+intake manifold, throttle body, and other variables in your setup.
+
+Cranking trim is used to adjust the amount of fuel the injector puts out during cranking.
+For bigger injector sizes you will want to enter a negative percentage to limit the amount
+of fuel thrown in. The value here will add or subtract the percentage from the settings in
+the raw cranking values. If it ends up starting great at warm temperatures and not so
+great at cold temperatures you can adjust the raw cranking values to get it perfect
+across the temperature range.
+
+Tip-in and Cranking should be a negative percentage value based on old injector
+size divided by new injector size. 240/440 is -45.5 for instance.
+
+Post start is the amount of fuel delivered immediately after startup. Usually you will
+not have to change this value from 0, but if you experience any issues you
+have the option.
+
+Post Start Fuel Rate of Decay determines the time taken for the extra post-start fuel to diminish
+to zero. Higher values (rates) of decay will decrease the fuel more quickly than lower values. 
+
+There are four steps to the decay table. 
+-Step 1 is used until the post-start fuel has diminished to 50% of its initial value
+-Step 2 is used until 25%
+-Step 3 is used until the post-start fuel decreases to zero
+-Step 4 is a special case when the intake air temperature is very high (~70C/~170F degrees).
+
+
+Injector offset: you can choose to put your injector offset settings manually if
+your injector brand aren't listed in the list or if you needed to modify it.
+!LABEL1

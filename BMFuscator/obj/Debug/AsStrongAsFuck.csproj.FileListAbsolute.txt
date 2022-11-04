@@ -1,0 +1,9 @@
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\AsStrongAsFuck.exe.config
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\AsStrongAsFuck.exe
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\AsStrongAsFuck.pdb
+C:\Users\boule\Desktop\AsStrongAsFuck\bin\Debug\dnlib.dll
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\AsStrongAsFuck.csprojAssemblyReference.cache
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\AsStrongAsFuck.csproj.CoreCompileInputs.cache
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\AsStrongAsFuck.csproj.CopyComplete
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\AsStrongAsFuck.exe
+C:\Users\boule\Desktop\AsStrongAsFuck\obj\Debug\AsStrongAsFuck.pdb

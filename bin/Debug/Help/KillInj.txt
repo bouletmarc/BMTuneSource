@@ -1,0 +1,7 @@
+CATEGORY=Tools\Kill Injector
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Kill Injector allow you to stop powering all injectors.
+!LABEL1

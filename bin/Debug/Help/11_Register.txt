@@ -1,0 +1,25 @@
+CATEGORY=Register
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+To Register BMTune you will need to visit the official
+website (www.bmtune.com) and purchase your license.
+
+When purchasing your BMTune license, you will be prompt
+to put your RegisrationID which can be found in the menu
+'Help/Registration' and also your Email. The Email is where
+you will receive your BMTune registration.
+
+After your license has been purchased and all steps has
+been followed currectly, you only hace to wait up to 48h
+to receive the registration on your email. In most case, you
+can receive your registration almost instantly or with very
+slight delay.
+
+If there is an issue while creating your registration, if
+you didn't put any RegistrationID on your order, you will
+receive an email explaining why I cannot make your registration
+and in most case, the email will also help to guide you making
+your registration correctly if possible.
+!LABEL1

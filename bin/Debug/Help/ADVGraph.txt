@@ -1,0 +1,20 @@
+CATEGORY=Displays/Graph\Advanced Graph
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpADVGraph.png
+
+LABEL1=
+The Advanced Graph display can show you almost or
+all table informations in 2D to view more visually
+if our table is smooth or not.
+
+You can also edit tables values directly by selecting
+a point and moving it with the mouse.
+
+To open the Advanced Graph, you simply need to do a
+right clic on the table (in the parameters) that you
+want to display in 2D and select 'Show in graph'.
+
+Be careful has it can be sensitive.
+!LABEL1

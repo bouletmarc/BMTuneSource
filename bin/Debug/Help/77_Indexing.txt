@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Extras\Map Indexing
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpIndexing.png
+
+LABEL1=
+Map settings allows you to set the load type for the primary and secondary set of
+maps separately.
+
+If you want to use one set of maps (high cams/secondary maps), you can
+check the settings. This will allow the vehicle to only run
+on the high cam maps and/or secondary maps only.
+
+Primary and secondary maps can be set to read based on the MAP sensor or the
+TPS sensor completely separate to allow full TPS tuning, full MAP tuning, or a
+mix of the two using Alpha-N. Alpha-N can come in very handy for ITB setups.
+!LABEL1

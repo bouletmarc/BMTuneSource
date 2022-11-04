@@ -1,0 +1,9 @@
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\bin\Debug\FilesInfos.txt
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\bin\Debug\BMFuscator.exe.config
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\bin\Debug\BMFuscator.exe
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\bin\Debug\BMFuscator.pdb
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\bin\Debug\dnlib.dll
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\obj\Debug\BMFuscator.csprojAssemblyReference.cache
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\obj\Debug\BMFuscator.csproj.CopyComplete
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\obj\Debug\BMFuscator.exe
+C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMFuscator\obj\Debug\BMFuscator.pdb

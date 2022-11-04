@@ -1,0 +1,33 @@
+CATEGORY=Parameters\Main Settings\Options
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpOption.png
+
+LABEL1=
+Options listed here are used to enable/disable sensors and extras.
+
+ECT, IAT, VSS Error Code:
+When one of each other are disable, you will be prompt to put the value
+of the sensor when its disabled, by exemple if you disable the ECT Sensor
+and you ecu has no more ECT reference, you will tell the ecu that the ECT
+temperature are fix at this amount.
+
+When disabling ECT, IAT or VSS sensor, the ecu can possibly jump directly
+to the SET value even if the sensor still have reading.
+YOU MIGHT WANT TO DISABLE THIS ONLY IF REQUIRED
+
+Ignition Correction:
+Ignition adjustments occur all the time. The ECU alters the ignition based on many variables
+like map sensor voltage, throttle changes, and even rpm changes causing the actual ignition
+timing to differ from the maps. Unchecking this checkbox allows you to disable adjustments
+above the specified load. This will give you full control of ignition timing since it will only run
+what's in the maps, gear correction, individual cylinder correction, iat correction, and
+ect correction.
+
+The load settings allows you to keep a completely stock partial throttle drivability while
+still giving you full control at higher loads or in boost.
+
+Ignore starter signal input allows you to tell the ECU to ignore this input so you can use
+it as a switch input for any one of the other options available.
+!LABEL1

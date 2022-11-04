@@ -1,0 +1,20 @@
+CATEGORY=Parameters\Extras\Secondary Map
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpSecondary.png
+
+LABEL1=
+Switch Maps allow you to set parameters to switch to the secondary set of maps instead
+of using the primary set.
+
+The input can be used with a simple switch to easily go between a
+pump gas tune and a race gas tune.
+
+The Load condition can allow you to switch maps at a specific load to have a wider area
+of boost tuning available to you with the secondary maps making it a full 48x48 extended
+map if you want.
+
+The Throttle Position condition can allow you to switch maps at a certain point for ITB setups 
+to run between MAP and TPS based load. 
+!LABEL1

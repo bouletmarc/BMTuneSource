@@ -1,0 +1,10 @@
+CATEGORY=Tools\Map Trace Trail
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+This will trace and keep in memory all locations
+where the datalog cursor as passed on.
+
+This save the trace of the datalog cursor.
+!LABEL1

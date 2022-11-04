@@ -1,0 +1,15 @@
+CATEGORY=Parameters\Main Settings\Fan Control
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpFan.png
+
+LABEL1=
+Fan control allows you to control your fan through the stock or modified wiring.
+It can always be used as a general output for water injection or similar based
+on engine coolant temperature.
+
+Enable fan control turns the option on immediately. The output selected from the
+pull down menu will be active at all times above the engine coolant temperature
+specified.
+!LABEL1

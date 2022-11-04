@@ -1,0 +1,16 @@
+CATEGORY=Tools\Snapshot
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpSnapshot.png
+
+LABEL1=
+Snapshot Tool allow you to save several instance of your
+current tune during your current tuning session.
+
+Let's take by exemple, you make severals dyno pull and apply
+severals change in between each pull but at a certain point you
+want to rollback on your previous changes quickly or simply compare
+them with your current pull, the Snapshot is there for this. you can
+save a snapshot after each pull you do and reload it later if needed.
+!LABEL1

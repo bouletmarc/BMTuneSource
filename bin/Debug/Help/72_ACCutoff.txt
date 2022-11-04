@@ -1,0 +1,14 @@
+CATEGORY=Parameters\Extras\AC Cutoff
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpAC.png
+
+LABEL1=
+AC Cutoff allows you to switch your AC output off based on throttle position or
+RPM to free up the load on the engine created by the AC compressor.
+
+Enable AC Cutoff turns on the cutoff parameters and starts disabling your AC
+output at the settings provided immediately. If the RPM is above the set RPM
+point OR the throttle position is above the set TPS point your AC will be disabled.
+!LABEL1

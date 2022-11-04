@@ -1,0 +1,18 @@
+CATEGORY=Parameters\Boost Settings\PWM Setup
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpPWMSetup.png
+
+LABEL1=
+THIS PAGE AREN'T DONE YET
+
+If you want to describe this page yourself and
+participate to the development of BMTune, you can!
+
+You can find this file where 'BMTune.exe' are located
+then go in the 'Help' folder.
+
+You will find the file named:
+'52_BoostPWMSetup.txt'
+!LABEL1

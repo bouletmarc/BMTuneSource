@@ -1,0 +1,25 @@
+CATEGORY=Displays/Graph\Graph Display
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpGraph1.png
+
+LABEL1=
+It looks basic, but this is the start of a very powerful and easy to use tool.
+You can change the color scheme of the background outside of the
+graphing area, the graphing area itself in the Settings / Colors tab.
+
+To add extra data to the graph right click anywhere in the graph menu and
+select 'edit graph' or simply select it at the top left corner.
+
+You will see a page like this when you edit your graphs templates :
+
+!LABEL1
+
+IMG2=helpGraph2.png
+
+LABEL2=
+If you find the graph too long and you need to inspect correctly a
+specific area, you can select to Zoom in (at the cursor location).
+You can restore the zoom at anytime to go back to the full lenght.
+!LABEL2

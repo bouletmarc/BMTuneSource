@@ -1,0 +1,18 @@
+CATEGORY=Tools\Debug Menu
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpDebug.png
+
+LABEL1=
+If you have issues connecting to your Emulator
+Datalogger or SerialWB, the debug menu is there
+to display all serial report which can help you
+to know exactly what are the issues.
+
+Clear:
+This will clear all the logs report.
+
+Save:
+This will save all the logs report to a .txt file.
+!LABEL1

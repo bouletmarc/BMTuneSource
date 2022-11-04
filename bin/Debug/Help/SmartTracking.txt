@@ -1,0 +1,18 @@
+CATEGORY=Tools\Smart Tracking
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Smart Tracking will follow and switch tables automatically
+using the datalog. This mean if you are doing a live tuning
+sesion, and your ecu pass the conditions to switch maps, by
+exemple you change to the secondary table, then smart track
+will switch the shown table in BMTune automaticaly between
+the primary and secondary table.
+
+It will follow the datalog cursor.
+
+Smart tracking is kinda like 'follow vtec' and 'follow secondary'
+option activated together, it will follow all kind of maps
+switching.
+!LABEL1

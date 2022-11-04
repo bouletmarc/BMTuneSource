@@ -1,0 +1,15 @@
+CATEGORY=Displays/Graph\Emulator/Datalog Menu
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpEmuMenu1.png
+
+IMG2=helpEmuMenu2.png
+
+LABEL1=
+The Emulator and Datalog menu can help you to connect
+to your device faster.
+
+It will also be useful when you will be playing a
+saved datalog file.
+!LABEL1

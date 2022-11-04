@@ -1,0 +1,20 @@
+CATEGORY=Displays/Graph\2D/3D Graph
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=help2D3D.png
+
+LABEL1=
+The 2D/3D Graph show visually your tables. You can
+quickly see how smooth your maps is or see if the
+maps kinda make non sense.
+
+You can select region by doing a single clic or by
+selecting a whole region on the graph when dragging.
+
+You can move from point to point quickly with your
+shortcuts keys to make your editing faster and easier.
+
+The 2D/3D Graph generally refer to your Fuel and Ignitions
+tables of your baserom.
+!LABEL1

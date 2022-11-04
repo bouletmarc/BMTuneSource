@@ -1,0 +1,25 @@
+CATEGORY=Parameters\3-Step Settings\Full Throttle Shift
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpFTS.png
+
+LABEL1=
+Full throttle shift settings are used to hold the engine at a certain RPM while shifting
+with the throttle pressed. Holding the engine at the RPM you will be at when switching
+into the next gear will make it a much smoother transition.
+
+To use this feature the Enable Full Throttle Shifting option must be checked and you
+should have a clutch switch wired up.
+
+The cut RPM is the specific RPM that the engine won't be allowed to rev over.
+
+Above tps is the tps at which the 2-step will no longer be active and 
+full-throttle shifting can become active.
+
+Clutch input is the input used for the clutch switch you have wired in.
+Invert input should be active if you are using a switch that pulls to ground
+in the off position instead of the on position.
+
+You can also use an extra antilag
+!LABEL1

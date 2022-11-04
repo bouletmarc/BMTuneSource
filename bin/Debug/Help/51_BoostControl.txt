@@ -1,0 +1,30 @@
+CATEGORY=Parameters\Boost Settings\Manual Boost Controller
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpBoostControl.png
+
+LABEL1=
+Boost control allows you to use the outputs of the ECU to activate a boost
+controller with on/off solenoids such as the Turbo XS dual or quad stage controller.
+
+Enable boost control allows boost control to be activate based on the settings in the window.
+
+Disable if there's an MIL code allows boost control to remain inactive
+when there is an error code present which is a safety net for your engine.
+
+
+Activation input allows you to hook up an on/off pull to ground switch to
+any of the inputs listed in the menu. When set to none it will only be active
+based on the parameters in the window, but when an input is selected 
+boost control will only be active when the switch is set to on.
+
+Invert input allows you to use switches that are grounded in the off
+position instead of the on position.
+
+Secondary thru Fourth stage boost setting allows you to activate the second
+stage of boost via the output selected in the menu above the speed set in the 
+speed box above it. When set to none no output will be activated. When an
+output is selected and the speed is set to 0 the output will be active anytime
+the car is moving.
+!LABEL1

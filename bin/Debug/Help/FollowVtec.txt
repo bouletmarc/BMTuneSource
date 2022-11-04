@@ -1,0 +1,14 @@
+CATEGORY=Tools\Follow Vtec
+
+PAGE_DESCRIPTION_START_HERE
+
+LABEL1=
+Follow Vtec will follow and switch tables automatically
+using the datalog. This mean if you are doing a live tuning
+sesion, and your ecu pass the conditions to switch maps, by
+exemple you hit the Vtec, then follow vtec will switch the
+shown table in BMTune automaticaly between the low and high cam.
+
+It will follow the datalog cursor if it switch between Low
+and High cam.
+!LABEL1

@@ -1,0 +1,29 @@
+CATEGORY=Displays/Graph\Live Plots
+
+PAGE_DESCRIPTION_START_HERE
+
+IMG1=helpLivePlots.png
+
+LABEL1=
+The Live Plits can display more possibly useful
+information graphically when doing a live tuning
+session and datalogging. This will display the
+informations of somes (or the majority) of the
+sensors in the previous datalog frames.
+
+AFR vs TIME:
+This will show the AFR values over the previous
+datalog frames.
+
+Map/AFR vs RPM:
+This will show the average AFR at different RPM
+
+CUSTOM vs TIME:
+You can datalog almost any sensor graphically over
+the previous amount of choose frames.
+
+If you have an issue, lets say by exemple your iacv
+trigger On and Off quickly and you want to see
+graphically on live tuning how the iacv perform,
+this display will be very helpful to you.
+!LABEL1
