@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8ECFBB1-600A-4433-94ED-E9416D56158E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>BMTune</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publier\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BMTune_Logo_128x28.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Class22_startup</StartupObject>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Class34_Zip.cs" />
+    <Compile Include="Data\ArduinoModel.cs" />
+    <Compile Include="frmCPUBench.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCPUBench.Designer.cs">
+      <DependentUpon>frmCPUBench.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="frmProtocolInfos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnZIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownloadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controls\CtrlDisplayItemText.resx">
+      <DependentUpon>CtrlDisplayItemText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlAdvTable.resx">
+      <DependentUpon>ctrlAdvTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlBatteryOffset.resx">
+      <DependentUpon>ctrlBatteryOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlGrid.resx">
+      <DependentUpon>CtrlGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlInputSelector.resx">
+      <DependentUpon>CtrlInputSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlPlotGraph.resx">
+      <DependentUpon>ctrlPlotGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlMapGraph.resx">
+      <DependentUpon>ctrlMapGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlOutputSelector.resx">
+      <DependentUpon>CtrlOutputSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlSensorGrid.resx">
+      <DependentUpon>CtrlSensorGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlLogGraph.resx">
+      <DependentUpon>ctrlLogGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlMapSensor.resx">
+      <DependentUpon>ctrlMapSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlMapValue.resx">
+      <DependentUpon>ctrlMapValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBluetooth.resx">
+      <DependentUpon>frmBluetooth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdvancedGraph.resx">
+      <DependentUpon>frmAdvancedGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmActiveDatalog.resx">
+      <DependentUpon>frmActiveDatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBinTool.resx">
+      <DependentUpon>frmBinTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCPUBench.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmCPUBench.Designer.cs</LastGenOutput>
+      <DependentUpon>frmCPUBench.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProtocolInfos.resx">
+      <DependentUpon>frmProtocolInfos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaiting.resx">
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnZIP.resx">
+      <DependentUpon>frmUnZIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHints.resx">
+      <DependentUpon>frmHints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownloadFile.resx">
+      <DependentUpon>frmDownloadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDynoSetup.resx">
+      <DependentUpon>frmDynoSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHC05.resx">
+      <DependentUpon>frmHC05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoading.resx">
+      <DependentUpon>frmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGaugesEditor.resx">
+      <DependentUpon>frmGaugesEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsole.resx">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccelTimeSetting.resx">
+      <DependentUpon>frmAccelTimeSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangelog.resx">
+      <DependentUpon>frmChangelog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIgnCutModWarning.resx">
+      <DependentUpon>frmIgnCutModWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOstrichInfo.resx">
+      <DependentUpon>frmOstrichInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuickSaveMain.resx">
+      <DependentUpon>frmQuickSaveMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuickSaveDesc.resx">
+      <DependentUpon>frmQuickSaveDesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReset.resx">
+      <DependentUpon>frmReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUploadBaserom.resx">
+      <DependentUpon>frmUploadBaserom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownloadBaserom.resx">
+      <DependentUpon>frmDownloadBaserom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGearLearn.resx">
+      <DependentUpon>frmGearLearn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLivePlot.resx">
+      <DependentUpon>frmLivePlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownloadUpdate.resx">
+      <DependentUpon>frmDownloadUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyright.resx">
+      <DependentUpon>frmCopyright.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLivePSetting.resx">
+      <DependentUpon>frmLivePSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaseromConvert.resx">
+      <DependentUpon>frmBaseromConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvert.resx">
+      <DependentUpon>frmConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdvTableAdd.resx">
+      <DependentUpon>frmAdvTableAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaseMap.resx">
+      <DependentUpon>frmBaseMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBoostTableSetup.resx">
+      <DependentUpon>frmBoostTableSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBurner.resx">
+      <DependentUpon>frmBurner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChartTemplates.resx">
+      <DependentUpon>frmChartTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyMaps.resx">
+      <DependentUpon>frmCopyMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataDisplay.resx">
+      <DependentUpon>FrmDataDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataGrid.resx">
+      <DependentUpon>frmDataGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatalogGraphs.resx">
+      <DependentUpon>frmDatalogGraphs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapScalar.resx">
+      <DependentUpon>frmMapScalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassword.resx">
+      <DependentUpon>frmPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDebug.resx">
+      <DependentUpon>frmDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorCodes.resx">
+      <DependentUpon>frmErrorCodes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGridChart.resx">
+      <DependentUpon>FrmGridChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGridSelectionAdj.resx">
+      <DependentUpon>frmGridSelectionAdj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIgnitionSync.resx">
+      <DependentUpon>frmIgnitionSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInjectorOverallCalc.resx">
+      <DependentUpon>frmInjectorOverallCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShortKeys.resx">
+      <DependentUpon>frmShortKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParameters.resx">
+      <DependentUpon>frmParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSensorSetup.resx">
+      <DependentUpon>frmSensorSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\parmHelpNew.resx">
+      <DependentUpon>parmHelpNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectMode.resx">
+      <DependentUpon>frmSelectMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmCPR.resx">
+      <DependentUpon>parmCPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmOBL.resx">
+      <DependentUpon>parmOBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmKnockProtection.resx">
+      <DependentUpon>parmKnockProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmAc.resx">
+      <DependentUpon>parmAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmAntiStart.resx">
+      <DependentUpon>parmAntiStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmBoostCut.resx">
+      <DependentUpon>parmBoostCut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmBoostMapSensor.resx">
+      <DependentUpon>parmBoostMapSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmBstManual.resx">
+      <DependentUpon>parmBstManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmBurnOut.resx">
+      <DependentUpon>parmBurnOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmCloseLoop.resx">
+      <DependentUpon>parmCloseLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmComments.resx">
+      <DependentUpon>parmComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmCrankFuel.resx">
+      <DependentUpon>parmCrankFuel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmCylCorr.resx">
+      <DependentUpon>parmCylCorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmDualMap.resx">
+      <DependentUpon>parmDualMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmDwell.resx">
+      <DependentUpon>parmDwell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEbcCloseloop.resx">
+      <DependentUpon>parmEbcCloseloop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEbcCompensation.resx">
+      <DependentUpon>parmEbcCompensation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEbcDutyLook.resx">
+      <DependentUpon>parmEbcDutyLook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEbcSettings.resx">
+      <DependentUpon>parmEbcSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEctCorr.resx">
+      <DependentUpon>parmEctCorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFileProtection.resx">
+      <DependentUpon>parmFileProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmEctProtection.resx">
+      <DependentUpon>parmEctProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFanControl.resx">
+      <DependentUpon>parmFanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFtl.resx">
+      <DependentUpon>parmFtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFts.resx">
+      <DependentUpon>parmFts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmPopcorn.resx">
+      <DependentUpon>parmPopcorn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFuelCut.resx">
+      <DependentUpon>parmFuelCut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGearCorr.resx">
+      <DependentUpon>parmGearCorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO3_if.resx">
+      <DependentUpon>parmGPO3_if.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO2_if.resx">
+      <DependentUpon>parmGPO2_if.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO3_a.resx">
+      <DependentUpon>parmGPO3_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO2_a.resx">
+      <DependentUpon>parmGPO2_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO1_a.resx">
+      <DependentUpon>parmGPO1_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmGPO1_if.resx">
+      <DependentUpon>parmGPO1_if.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmIAB.resx">
+      <DependentUpon>parmIAB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmIATcorr.resx">
+      <DependentUpon>parmIATcorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmIdleMain.resx">
+      <DependentUpon>parmIdleMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmFlexFuel.resx">
+      <DependentUpon>parmFlexFuel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmIdleIgnCorr.resx">
+      <DependentUpon>parmIdleIgnCorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmInjector.resx">
+      <DependentUpon>parmInjector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmLeanProtection.resx">
+      <DependentUpon>parmLeanProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmMap.resx">
+      <DependentUpon>parmMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmMilShift.resx">
+      <DependentUpon>parmMilShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmRevLimit.resx">
+      <DependentUpon>parmRevLimit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmRomOptions.resx">
+      <DependentUpon>parmRomOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmSCC.resx">
+      <DependentUpon>parmSCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmTipInOut.resx">
+      <DependentUpon>parmTipInOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmTpsRetard.resx">
+      <DependentUpon>parmTpsRetard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmTpsSensor.resx">
+      <DependentUpon>parmTpsSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmTransmission.resx">
+      <DependentUpon>parmTransmission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parmVtec.resx">
+      <DependentUpon>parmVtec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Reference Include="Interop.MTSSDKLib">
+      <HintPath>.\Interop.MTSSDKLib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03, processorArchitecture=MSIL">
+      <HintPath>packages\ncalc.1.3.8\lib\NCalc.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IO.Compression">
+      <HintPath>.\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>.\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Security" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Class32_Locations.cs" />
+    <Compile Include="Class33_Sensors.cs" />
+    <Compile Include="Class21_snap.cs" />
+    <Compile Include="Class28_Shortcuts.cs" />
+    <Compile Include="Class30_OBD2.cs" />
+    <Compile Include="Class29_Dyno.cs" />
+    <Compile Include="Controls\CtrlDisplayItemText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data\QuickSaveListObjects.cs" />
+    <Compile Include="Data\DatalogButtonsTypes.cs" />
+    <Compile Include="Data\EmulatorVendorOstrich.cs" />
+    <Compile Include="Data\EmulatorVendorDemon.cs" />
+    <Compile Include="Data\QuickSaveItem.cs" />
+    <Compile Include="frmBluetooth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBluetooth.designer.cs">
+      <DependentUpon>frmBluetooth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdvancedGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class27_EmuProgress.cs" />
+    <Compile Include="frmActiveDatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBinTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDynoSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDynoControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHC05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGaugesEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangelog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEbcDutyErrorInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccelTimeSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIgnCutModWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOstrichInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuickSaveMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuickSaveDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\parmHelpNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmCPR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmOBL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmKnockProtection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmOnboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InjectorsLoading.cs" />
+    <Compile Include="Class8_v.cs" />
+    <Compile Include="Binary_Files.cs" />
+    <Compile Include="Class1_Version.cs" />
+    <Compile Include="Controls\ctrlPlotGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUploadBaserom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownloadBaserom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGearLearn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLivePlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownloadUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyright.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLivePSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaseromConvert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapScalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmAntiStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmBurnOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmEbcCloseloop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmFileProtection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmPopcorn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGPO3_if.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGPO2_if.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGPO3_a.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGPO2_a.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmFlexFuel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmLeanProtection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmSCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrmDataDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ctrlAdvTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmEbcCompensation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmMilShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmIAB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGPO1_if.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmShortKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1_u.cs" />
+    <Compile Include="parmGPO1_a.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmTipInOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Struct12.cs" />
+    <Compile Include="parmIdleMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmAc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmInjector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrmGridChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoostTableSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmFtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class2_serialWB.cs" />
+    <Compile Include="parmRevLimit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmComments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmBoostMapSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmAdvTableAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enum4.cs" />
+    <Compile Include="parmBstManual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmChartTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class5_burn.cs" />
+    <Compile Include="parmEbcSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class7_u.cs" />
+    <Compile Include="Class8_u.cs" />
+    <Compile Include="Class9_baserom.cs" />
+    <Compile Include="Enum6.cs" />
+    <Compile Include="parmCylCorr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class10_settings.cs" />
+    <Compile Include="parmVtec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmInjectorOverallCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlLogGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlMapSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlMapValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dal\Settings\SettingsFile.cs" />
+    <Compile Include="Dal\Settings\SettingsFormatException.cs" />
+    <Compile Include="Dal\Settings\SettingsKey.cs" />
+    <Compile Include="Data\TunerAfrGrid.cs" />
+    <Compile Include="Data\AdvTableType.cs" />
+    <Compile Include="Data\AirFuelUnits.cs" />
+    <Compile Include="Data\AnalogInputs.cs" />
+    <Compile Include="Data\ChartSetup.cs" />
+    <Compile Include="Data\ChartTemplate.cs" />
+    <Compile Include="Data\ChartCollection.cs" />
+    <Compile Include="Data\CorrectionUnits.cs" />
+    <Compile Include="Data\DatalogDisplayTypes.cs" />
+    <Compile Include="Data\DataloggingMode.cs" />
+    <Compile Include="Data\DataloggingState.cs" />
+    <Compile Include="Data\DataloggingTable.cs" />
+    <Compile Include="Data\DatalogLedTypes.cs" />
+    <Compile Include="Data\DoNotObfuscate.cs" />
+    <Compile Include="Data\BMTuneVersions.cs" />
+    <Compile Include="Data\EmulatorMoatesType.cs" />
+    <Compile Include="Data\EmulatorMode.cs" />
+    <Compile Include="Data\EmulatorState.cs" />
+    <Compile Include="Data\FuelDisplayMode.cs" />
+    <Compile Include="Data\MapGraphSelect.cs" />
+    <Compile Include="Data\MapGraphType.cs" />
+    <Compile Include="Data\MapSensorUnits.cs" />
+    <Compile Include="Data\SelectedTable.cs" />
+    <Compile Include="Data\SensorsX.cs" />
+    <Compile Include="Data\TableOverlay.cs" />
+    <Compile Include="Data\TemperatureUnits.cs" />
+    <Compile Include="Data\TunerSmartTrack.cs" />
+    <Compile Include="Data\VoltUnits.cs" />
+    <Compile Include="Data\VssUnits.cs" />
+    <Compile Include="Data\WBinput.cs" />
+    <Compile Include="Data\Wideband_Serial.cs" />
+    <Compile Include="DisplayItemsStripped.cs" />
+    <Compile Include="frmDatalogGraphs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class11_u.cs" />
+    <Compile Include="CtrlInputSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmGearCorr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Struct15.cs" />
+    <Compile Include="Struct16.cs" />
+    <Compile Include="parmCrankFuel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlOutputSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmFuelCut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class12_afrT.cs" />
+    <Compile Include="Class13_u.cs" />
+    <Compile Include="parmFanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmDualMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmIdleIgnCorr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmTpsSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmBaseMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class15.cs" />
+    <Compile Include="parmEctCorr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmCloseLoop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Struct17.cs" />
+    <Compile Include="parmIATcorr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmFts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Struct18.cs" />
+    <Compile Include="CtrlGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Struct19.cs" />
+    <Compile Include="Class16_u.cs" />
+    <Compile Include="Struct20.cs" />
+    <Compile Include="frmDataGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmTpsRetard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmEbcDutyLook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class18.cs" />
+    <Compile Include="frmSensorSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmTransmission.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmDwell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Struct22.cs" />
+    <Compile Include="frmIgnitionSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Struct23.cs" />
+    <Compile Include="Class20_u.cs" />
+    <Compile Include="Struct24.cs" />
+    <Compile Include="Class22_startup.cs" />
+    <Compile Include="parmEctProtection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlBatteryOffset.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmGridSelectionAdj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parmBoostCut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmBurner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class24_u.cs" />
+    <Compile Include="frmErrorCodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class25.cs" />
+    <Compile Include="CtrlSensorGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlMapGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parmRomOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Piston-Animation-Small.gif" />
+    <None Include="Images\unzip.gif" />
+    <None Include="Images\windowed_mode.png" />
+    <None Include="Images\docked_mode.png" />
+    <None Include="Images\16x16\PlayQuart.png" />
+    <None Include="Images\16x16\PlayHalft.png" />
+    <None Include="Images\16x16\Delivery.png" />
+    <None Include="Images\BMTune_IGNCut_Mod.png" />
+    <None Include="Images\16x16\Dollar.png" />
+    <None Include="Images\16x16\Abort.png" />
+    <None Include="Images\table-VE.png" />
+    <None Include="Images\16x16\memory-chipWrite.png" />
+    <None Include="Images\16x16\memory-chipVerify.png" />
+    <None Include="Images\16x16\memory-chipRead.png" />
+    <None Include="Images\16x16\memory-chip.png" />
+    <None Include="Images\16x16\graph-16.png" />
+    <None Include="Images\16x16\Display 16x16.png" />
+    <None Include="Images\16x16\Earth.png" />
+    <None Include="Images\16x16\Calendar.png" />
+    <None Include="Images\16x16\Problem.png" />
+    <None Include="Images\16x16\About.png" />
+    <None Include="Images\16x16\AFTarget.png" />
+    <None Include="Images\16x16\AFReading.png" />
+    <None Include="Images\16x16\AFDiff.png" />
+    <None Include="Images\16x16\Map2.png" />
+    <None Include="Images\16x16\Map1.png" />
+    <None Include="Images\16x16\Lightning2.png" />
+    <None Include="Images\16x16\Lightning1.png" />
+    <None Include="Images\16x16\injector2.png" />
+    <None Include="Images\16x16\injector1.png" />
+    <None Include="Images\16x16\How-to.png" />
+    <None Include="Images\16x16\Update.png" />
+    <None Include="Images\16x16\Movie.png" />
+    <None Include="Images\16x16\SaveAs.png" />
+    <None Include="Images\16x16\Wrench.png" />
+    <None Include="Images\16x16\Warning.png" />
+    <None Include="Images\16x16\Wallet.png" />
+    <None Include="Images\16x16\View.png" />
+    <None Include="Images\16x16\Upload.png" />
+    <None Include="Images\16x16\Up.png" />
+    <None Include="Images\16x16\Undo.png" />
+    <None Include="Images\16x16\Tune.png" />
+    <None Include="Images\16x16\Trash.png" />
+    <None Include="Images\16x16\Toolbox.png" />
+    <None Include="Images\16x16\Target.png" />
+    <None Include="Images\16x16\Table.png" />
+    <None Include="Images\16x16\Script.png" />
+    <None Include="Images\16x16\Schedule.png" />
+    <None Include="Images\16x16\Save.png" />
+    <None Include="Images\16x16\Report.png" />
+    <None Include="Images\16x16\Repair.png" />
+    <None Include="Images\16x16\Refresh.png" />
+    <None Include="Images\16x16\Redo.png" />
+    <None Include="Images\16x16\Record.png" />
+    <None Include="Images\16x16\Raise.png" />
+    <None Include="Images\16x16\Pinion.png" />
+    <None Include="Images\16x16\Pie chart.png" />
+    <None Include="Images\16x16\Paste.png" />
+    <None Include="Images\16x16\OK.png" />
+    <None Include="Images\16x16\Notes.png" />
+    <None Include="Images\16x16\Next.png" />
+    <None Include="Images\16x16\New document.png" />
+    <None Include="Images\16x16\Network connection.png" />
+    <None Include="Images\16x16\Modify.png" />
+    <None Include="Images\16x16\Magic wand.png" />
+    <None Include="Images\16x16\Lock.png" />
+    <None Include="Images\16x16\Load.png" />
+    <None Include="Images\16x16\List.png" />
+    <None Include="Images\16x16\Lightning.png" />
+    <None Include="Images\16x16\Last.png" />
+    <None Include="Images\16x16\Last recor.png" />
+    <None Include="Images\16x16\Key.png" />
+    <None Include="Images\16x16\Info.png" />
+    <None Include="Images\16x16\History.png" />
+    <None Include="Images\16x16\Help symbol.png" />
+    <None Include="Images\16x16\Help book.png" />
+    <None Include="Images\16x16\Hard disk.png" />
+    <None Include="Images\16x16\Forbidden.png" />
+    <None Include="Images\16x16\Folder.png" />
+    <None Include="Images\16x16\Flash drive.png" />
+    <None Include="Images\16x16\Find.png" />
+    <None Include="Images\16x16\Filter.png" />
+    <None Include="Images\16x16\Favourites.png" />
+    <None Include="Images\16x16\Fall.png" />
+    <None Include="Images\16x16\Expand.png" />
+    <None Include="Images\16x16\Exit.png" />
+    <None Include="Images\16x16\Error.png" />
+    <None Include="Images\16x16\Erase.png" />
+    <None Include="Images\16x16\Equipment.png" />
+    <None Include="Images\16x16\Eject.png" />
+    <None Include="Images\16x16\Downloads folder.png" />
+    <None Include="Images\16x16\Download.png" />
+    <None Include="Images\16x16\Down.png" />
+    <None Include="Images\16x16\Disaster.png" />
+    <None Include="Images\16x16\Diagram.png" />
+    <None Include="Images\16x16\Delete.png" />
+    <None Include="Images\16x16\Database.png" />
+    <None Include="Images\16x16\Danger.png" />
+    <None Include="Images\16x16\Cut.png" />
+    <None Include="Images\16x16\Create.png" />
+    <None Include="Images\16x16\Copy.png" />
+    <None Include="Images\16x16\Computer 16x16.png" />
+    <None Include="Images\16x16\Component.png" />
+    <None Include="Images\16x16\Clipboard.png" />
+    <None Include="Images\16x16\Car key.png" />
+    <None Include="Images\16x16\Cancel.png" />
+    <None Include="Images\16x16\Brush.png" />
+    <None Include="Images\16x16\Blue tag.png" />
+    <None Include="Images\16x16\Blue pin.png" />
+    <None Include="Images\16x16\Blue key.png" />
+    <None Include="Images\16x16\Blue bookmark.png" />
+    <None Include="Images\16x16\Apply.png" />
+    <None Include="Images\16x16\Application.png" />
+    <None Include="Images\16x16\Alert.png" />
+    <None Include="Images\16x16\3d bar chart.png" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Images\control-stop-square_green.png" />
+    <None Include="Images\control-pause_green.png" />
+    <None Include="Images\control-double_green.png" />
+    <None Include="Images\control-180_green.png" />
+    <None Include="Images\control_green.png" />
+    <None Include="Images\arrow-090_green.png" />
+    <None Include="Images\BMTune_Logo_150x90.png" />
+    <None Include="Images\BMTune_Logo_150x90.bmp" />
+    <None Include="Images\BMTune_Logo_128x28.png" />
+    <None Include="Images\BMTune_Logo_64x64.png" />
+    <None Include="Images\magnifier--plus.png" />
+    <None Include="Images\magnifier--minus.png" />
+    <None Include="Images\magnifier-history.png" />
+    <None Include="Images\zone--plus.png" />
+    <None Include="Images\zone--minus.png" />
+    <None Include="Images\zone--arrow.png" />
+    <None Include="Images\table-split-row.png" />
+    <None Include="Images\table-split-column.png" />
+    <None Include="Images\table-rotate.png" />
+    <None Include="Images\table-heatmap.png" />
+    <None Include="Images\gear--pencil.png" />
+    <None Include="Images\folder-open-document.png" />
+    <None Include="Images\drive-upload.png" />
+    <None Include="Images\drive--plus.png" />
+    <None Include="Images\drive--minus.png" />
+    <None Include="Images\drive-download.png" />
+    <None Include="Images\drive-disc-blue.png" />
+    <None Include="Images\drive--arrow.png" />
+    <None Include="Images\disk--exclamation.png" />
+    <None Include="Images\dashboard--plus.png" />
+    <None Include="Images\dashboard--minus.png" />
+    <None Include="Images\cross-button.png" />
+    <None Include="Images\control-stop-square.png" />
+    <None Include="Images\control-record.png" />
+    <None Include="Images\control-pause-record.png" />
+    <None Include="Images\control-pause.png" />
+    <None Include="Images\control-double.png" />
+    <None Include="Images\control-180.png" />
+    <None Include="Images\control.png" />
+    <None Include="Images\arrow-circle-225-left.png" />
+    <None Include="Images\arrow-090.png" />
+    <None Include="BMTune_Back.png" />
+    <None Include="alert2.wav" />
+    <Content Include="BMTune_Logo_128x28.ico" />
+    <None Include="packages.config" />
+    <None Include="Packages.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>
