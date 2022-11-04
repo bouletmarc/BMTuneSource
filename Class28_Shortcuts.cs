@@ -1,0 +1,214 @@
+﻿using System;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+
+internal class Class28_Shortcuts
+{
+    public List<string> KeysList = new List<string>();
+    public List<byte> KeysListByte = new List<byte>();
+
+    internal Class28_Shortcuts()
+    {
+        PopulateKeyCodes();
+    }
+
+    private void PopulateKeyCodes() {
+            KeysList.Add("NO KEY"); KeysListByte.Add(0);
+            KeysList.Add("LEFT MOUSE CLIC"); KeysListByte.Add(1);
+            KeysList.Add("RGIHT MOUSE CLIC"); KeysListByte.Add(2);
+            KeysList.Add("CANCEL"); KeysListByte.Add(3);
+            KeysList.Add("MIDLE MOUSE CLIC"); KeysListByte.Add(4);
+            KeysList.Add("FIRST X"); KeysListByte.Add(5);
+            KeysList.Add("SECOND X"); KeysListByte.Add(6);
+            KeysList.Add("UNDEFINED"); KeysListByte.Add(7);
+            KeysList.Add("BACKSPACE"); KeysListByte.Add(8);
+            KeysList.Add("TAB"); KeysListByte.Add(9);
+            KeysList.Add("LINEFEED"); KeysListByte.Add(10);
+            KeysList.Add("CLEAR"); KeysListByte.Add(12);
+            KeysList.Add("RETURN"); KeysListByte.Add(13);
+            KeysList.Add("SHIFT"); KeysListByte.Add(16);
+            KeysList.Add("CTRL"); KeysListByte.Add(17);
+            KeysList.Add("ALT"); KeysListByte.Add(18);
+            KeysList.Add("PAUSE"); KeysListByte.Add(19);
+            KeysList.Add("CAPSLOCK"); KeysListByte.Add(20);
+            KeysList.Add("IME_KANA"); KeysListByte.Add(21);
+            KeysList.Add("IME_JUNJA"); KeysListByte.Add(23);
+            KeysList.Add("IME_FINAL"); KeysListByte.Add(24);
+            KeysList.Add("IME_HANJA"); KeysListByte.Add(25);
+            KeysList.Add("ESC"); KeysListByte.Add(27);
+            KeysList.Add("IME_CONV"); KeysListByte.Add(28);
+            KeysList.Add("IME_NONC"); KeysListByte.Add(29);
+            KeysList.Add("IME_ACPT"); KeysListByte.Add(30);
+            KeysList.Add("IME_MODE"); KeysListByte.Add(31);
+            KeysList.Add("SPACE"); KeysListByte.Add(32);
+            KeysList.Add("PAGE UP"); KeysListByte.Add(33);
+            KeysList.Add("PAGE DOWN"); KeysListByte.Add(34);
+            KeysList.Add("END"); KeysListByte.Add(35);
+            KeysList.Add("HOME"); KeysListByte.Add(36);
+            KeysList.Add("LEFT"); KeysListByte.Add(37);
+            KeysList.Add("UP"); KeysListByte.Add(38);
+            KeysList.Add("RIGHT"); KeysListByte.Add(39);
+            KeysList.Add("DOWN"); KeysListByte.Add(40);
+            KeysList.Add("SELECT"); KeysListByte.Add(41);
+            KeysList.Add("PRINT"); KeysListByte.Add(42);
+            KeysList.Add("EXECUTE"); KeysListByte.Add(43);
+            KeysList.Add("PRINT SCREEN"); KeysListByte.Add(44);
+            KeysList.Add("INSERT"); KeysListByte.Add(45);
+            KeysList.Add("DELETE"); KeysListByte.Add(46);
+            KeysList.Add("HELP"); KeysListByte.Add(47);
+            KeysList.Add(");"); KeysListByte.Add(48);
+            KeysList.Add("0"); KeysListByte.Add(48);
+            KeysList.Add("!"); KeysListByte.Add(49);
+            KeysList.Add("1"); KeysListByte.Add(49);
+            KeysList.Add("@"); KeysListByte.Add(50);
+            KeysList.Add("2"); KeysListByte.Add(50);
+            KeysList.Add("#"); KeysListByte.Add(51);
+            KeysList.Add("3"); KeysListByte.Add(51);
+            KeysList.Add("$"); KeysListByte.Add(52);
+            KeysList.Add("4"); KeysListByte.Add(52);
+            KeysList.Add("%"); KeysListByte.Add(53);
+            KeysList.Add("5"); KeysListByte.Add(53);
+            KeysList.Add("^"); KeysListByte.Add(54);
+            KeysList.Add("6"); KeysListByte.Add(54);
+            KeysList.Add("&"); KeysListByte.Add(55);
+            KeysList.Add("7"); KeysListByte.Add(55);
+            KeysList.Add("*"); KeysListByte.Add(56);
+            KeysList.Add("8"); KeysListByte.Add(56);
+            KeysList.Add("("); KeysListByte.Add(57);
+            KeysList.Add("9"); KeysListByte.Add(57);
+            KeysList.Add("A"); KeysListByte.Add(65);
+            KeysList.Add("B"); KeysListByte.Add(66);
+            KeysList.Add("C"); KeysListByte.Add(67);
+            KeysList.Add("D"); KeysListByte.Add(68);
+            KeysList.Add("E"); KeysListByte.Add(69);
+            KeysList.Add("F"); KeysListByte.Add(70);
+            KeysList.Add("G"); KeysListByte.Add(71);
+            KeysList.Add("H"); KeysListByte.Add(72);
+            KeysList.Add("I"); KeysListByte.Add(73);
+            KeysList.Add("J"); KeysListByte.Add(74);
+            KeysList.Add("K"); KeysListByte.Add(75);
+            KeysList.Add("L"); KeysListByte.Add(76);
+            KeysList.Add("M"); KeysListByte.Add(77);
+            KeysList.Add("N"); KeysListByte.Add(78);
+            KeysList.Add("O"); KeysListByte.Add(79);
+            KeysList.Add("P"); KeysListByte.Add(80);
+            KeysList.Add("Q"); KeysListByte.Add(81);
+            KeysList.Add("R"); KeysListByte.Add(82);
+            KeysList.Add("S"); KeysListByte.Add(83);
+            KeysList.Add("T"); KeysListByte.Add(84);
+            KeysList.Add("U"); KeysListByte.Add(85);
+            KeysList.Add("V"); KeysListByte.Add(86);
+            KeysList.Add("W"); KeysListByte.Add(87);
+            KeysList.Add("X"); KeysListByte.Add(88);
+            KeysList.Add("Y"); KeysListByte.Add(89);
+            KeysList.Add("Z"); KeysListByte.Add(90);
+            KeysList.Add("LEFT WINDOWS KEY"); KeysListByte.Add(91);
+            KeysList.Add("RIGHT WINDOWS KEY"); KeysListByte.Add(92);
+            KeysList.Add("CONTEXT"); KeysListByte.Add(93);
+            KeysList.Add("RESERVED"); KeysListByte.Add(94);
+            KeysList.Add("SLEEP"); KeysListByte.Add(95);
+            KeysList.Add("*"); KeysListByte.Add(106);
+            KeysList.Add("+"); KeysListByte.Add(107);
+            KeysList.Add("SEPARATOR"); KeysListByte.Add(108);
+            KeysList.Add("-"); KeysListByte.Add(109);
+            KeysList.Add("DEL"); KeysListByte.Add(110);
+            KeysList.Add("/"); KeysListByte.Add(111);
+            KeysList.Add("F1"); KeysListByte.Add(112);
+            KeysList.Add("F2"); KeysListByte.Add(113);
+            KeysList.Add("F3"); KeysListByte.Add(114);
+            KeysList.Add("F4"); KeysListByte.Add(115);
+            KeysList.Add("F5"); KeysListByte.Add(116);
+            KeysList.Add("F6"); KeysListByte.Add(117);
+            KeysList.Add("F7"); KeysListByte.Add(118);
+            KeysList.Add("F8"); KeysListByte.Add(119);
+            KeysList.Add("F9"); KeysListByte.Add(120);
+            KeysList.Add("F10"); KeysListByte.Add(121);
+            KeysList.Add("F11"); KeysListByte.Add(122);
+            KeysList.Add("F12"); KeysListByte.Add(123);
+            KeysList.Add("F13"); KeysListByte.Add(124);
+            KeysList.Add("F14"); KeysListByte.Add(125);
+            KeysList.Add("F15"); KeysListByte.Add(126);
+            KeysList.Add("F16"); KeysListByte.Add(127);
+            KeysList.Add("F17"); KeysListByte.Add(128);
+            KeysList.Add("F18"); KeysListByte.Add(129);
+            KeysList.Add("F19"); KeysListByte.Add(130);
+            KeysList.Add("F20"); KeysListByte.Add(131);
+            KeysList.Add("F21"); KeysListByte.Add(132);
+            KeysList.Add("F22"); KeysListByte.Add(133);
+            KeysList.Add("F23"); KeysListByte.Add(134);
+            KeysList.Add("F24"); KeysListByte.Add(135);
+            KeysList.Add("UNASSIGNED"); KeysListByte.Add(136);
+            KeysList.Add("NUMPAD LOCK"); KeysListByte.Add(144);
+            KeysList.Add("SCROLL LOCK"); KeysListByte.Add(145);
+            KeysList.Add("OEM SPECIFIC"); KeysListByte.Add(146);
+            KeysList.Add("LEFT SHIFT"); KeysListByte.Add(160);
+            KeysList.Add("RIGHT SHIFT"); KeysListByte.Add(161);
+            KeysList.Add("LEFT CTRL"); KeysListByte.Add(162);
+            KeysList.Add("RIGHT CTRL"); KeysListByte.Add(163);
+            KeysList.Add("LEFT ALT"); KeysListByte.Add(164);
+            KeysList.Add("RIGHT ALT"); KeysListByte.Add(165);
+            KeysList.Add("BACK"); KeysListByte.Add(166);
+            KeysList.Add("FORWARD"); KeysListByte.Add(167);
+            KeysList.Add("REFRESH"); KeysListByte.Add(168);
+            KeysList.Add("STOP"); KeysListByte.Add(169);
+            KeysList.Add("SEARCH"); KeysListByte.Add(170);
+            KeysList.Add("FAVORITES"); KeysListByte.Add(171);
+            KeysList.Add("MUTE"); KeysListByte.Add(173);
+            KeysList.Add("VOLUME DOWN"); KeysListByte.Add(174);
+            KeysList.Add("VOLUME UP"); KeysListByte.Add(175);
+            KeysList.Add("NEXT"); KeysListByte.Add(176);
+            KeysList.Add("PREV"); KeysListByte.Add(177);
+            KeysList.Add("PLAY"); KeysListByte.Add(179);
+            KeysList.Add("EMAIL"); KeysListByte.Add(180);
+            KeysList.Add("MEDIA"); KeysListByte.Add(181);
+            KeysList.Add("START1"); KeysListByte.Add(182);
+            KeysList.Add("START2"); KeysListByte.Add(183);
+            KeysList.Add(":"); KeysListByte.Add(186);
+            KeysList.Add(";"); KeysListByte.Add(186);
+            KeysList.Add("+"); KeysListByte.Add(187);
+            KeysList.Add("="); KeysListByte.Add(187);
+            KeysList.Add("<"); KeysListByte.Add(188);
+            KeysList.Add(","); KeysListByte.Add(188);
+            KeysList.Add("_"); KeysListByte.Add(189);
+            KeysList.Add("-"); KeysListByte.Add(189);
+            KeysList.Add(">"); KeysListByte.Add(190);
+            KeysList.Add("."); KeysListByte.Add(190);
+            KeysList.Add("?"); KeysListByte.Add(191);
+            KeysList.Add("/"); KeysListByte.Add(191);
+            KeysList.Add("~"); KeysListByte.Add(192);
+            KeysList.Add("`"); KeysListByte.Add(192);
+            KeysList.Add("{"); KeysListByte.Add(219);
+            KeysList.Add("["); KeysListByte.Add(219);
+            KeysList.Add("|"); KeysListByte.Add(220);
+            KeysList.Add(@"\"); KeysListByte.Add(220);
+            KeysList.Add("}"); KeysListByte.Add(221);
+            KeysList.Add("]"); KeysListByte.Add(221);
+            KeysList.Add("'"); KeysListByte.Add(222);
+            KeysList.Add("MISC"); KeysListByte.Add(223);
+            KeysList.Add("OEM"); KeysListByte.Add(225);
+            KeysList.Add("OEM ANG"); KeysListByte.Add(226);
+            KeysList.Add("PROCESS"); KeysListByte.Add(229);
+            KeysList.Add("UNICODE"); KeysListByte.Add(231);
+            KeysList.Add("ATTN"); KeysListByte.Add(246);
+            KeysList.Add("CRSEL"); KeysListByte.Add(247);
+            KeysList.Add("EXSEL"); KeysListByte.Add(248);
+            KeysList.Add("ERASE EOF"); KeysListByte.Add(249);
+            KeysList.Add("ZOOM"); KeysListByte.Add(251);
+            KeysList.Add("PA1"); KeysListByte.Add(253);
+       }
+
+    public Keys GetKeyCode(string ShortcutKey) {
+        if (ShortcutKey == " ") return (Keys) 32;
+        else
+        {
+            int Index = -1;
+            for (int i = 0; i < KeysList.Count; i++) if (KeysList[i] == ShortcutKey) { Index = i; i = KeysList.Count; }
+
+            if (Index != -1) return (Keys) KeysListByte[Index];
+            else return (Keys) 0;
+        }
+    }
+}
+
