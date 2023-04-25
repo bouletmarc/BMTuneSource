@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMTune", "BMTune.csproj", "{C8ECFBB1-600A-4433-94ED-E9416D56158E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCryptor", "AppCryptor\AppCryptor.csproj", "{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMFuscator", "BMFuscator\BMFuscator.csproj", "{0FE687CD-6631-428E-A054-8039A20E6F6E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMTune_Packer", "BMTune_Packer\BMTune_Packer.csproj", "{2BA666B0-971C-4500-AAF4-71F12EB4DD98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,30 +19,6 @@ Global
 		{C8ECFBB1-600A-4433-94ED-E9416D56158E}.Release|Any CPU.ActiveCfg = Release|x86
 		{C8ECFBB1-600A-4433-94ED-E9416D56158E}.Release|x86.ActiveCfg = Release|x86
 		{C8ECFBB1-600A-4433-94ED-E9416D56158E}.Release|x86.Build.0 = Release|x86
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Debug|x86.Build.0 = Debug|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Release|x86.ActiveCfg = Release|Any CPU
-		{15E3FE49-6A77-4D5C-927E-CA72304ABFB0}.Release|x86.Build.0 = Release|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Debug|x86.Build.0 = Debug|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Release|x86.ActiveCfg = Release|Any CPU
-		{0FE687CD-6631-428E-A054-8039A20E6F6E}.Release|x86.Build.0 = Release|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Debug|x86.Build.0 = Debug|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Release|x86.ActiveCfg = Release|Any CPU
-		{2BA666B0-971C-4500-AAF4-71F12EB4DD98}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
