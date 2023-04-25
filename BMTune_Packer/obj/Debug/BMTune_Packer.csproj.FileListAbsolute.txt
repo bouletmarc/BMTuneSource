@@ -1,8 +1,0 @@
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\bin\Debug\BMTune PACKER.exe
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune_Packer.csprojAssemblyReference.cache
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune_Uploader.Form1.resources
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune_Uploader.Properties.Resources.resources
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune_Packer.csproj.GenerateResource.cache
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune PACKER.exe
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\BMTune_Packer\obj\Debug\BMTune PACKER.pdb
-C:\Users\boule\Documents\Visual Studio 2019\Projects\BMTune2\bin\Debug\BMTune PACKER.pdb
